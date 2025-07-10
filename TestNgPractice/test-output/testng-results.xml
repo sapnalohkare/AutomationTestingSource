@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-10T21:12:57 IST" name="Default suite" finished-at="2025-07-10T21:13:23 IST" duration-ms="25540">
+    <groups>
+    </groups>
+    <test started-at="2025-07-10T21:12:57 IST" name="Default test" finished-at="2025-07-10T21:13:23 IST" duration-ms="25540">
+      <class name="paraBankExecute.BankExecute">
+        <test-method is-config="true" signature="DBConnection()[pri:0, instance:paraBankExecute.BankExecute@65d09a04]" started-at="2025-07-10T21:12:56 IST" name="DBConnection" finished-at="2025-07-10T21:12:57 IST" duration-ms="1147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DBConnection -->
+        <test-method signature="CreateRecord()[pri:1, instance:paraBankExecute.BankExecute@65d09a04]" started-at="2025-07-10T21:13:09 IST" name="CreateRecord" finished-at="2025-07-10T21:13:18 IST" duration-ms="9133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateRecord -->
+        <test-method signature="login()[pri:2, instance:paraBankExecute.BankExecute@65d09a04]" started-at="2025-07-10T21:13:18 IST" name="login" finished-at="2025-07-10T21:13:23 IST" depends-on-methods="CreateRecord()" duration-ms="4405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closeDBConnection()[pri:0, instance:paraBankExecute.BankExecute@65d09a04]" started-at="2025-07-10T21:13:23 IST" name="closeDBConnection" finished-at="2025-07-10T21:13:23 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBConnection -->
+      </class> <!-- paraBankExecute.BankExecute -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
